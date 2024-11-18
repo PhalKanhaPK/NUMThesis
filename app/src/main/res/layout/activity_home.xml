@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center"
+    android:background="@color/main_background"
+    tools:context=".HomeActivity">
+
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="78dp"
+        android:background="@drawable/gradent_color_background"
+        />
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navigationButton"
+        android:layout_width="397dp"
+        android:layout_height="76dp"
+        android:textAlignment="center"
+        android:background="@drawable/round_conner"
+        app:itemActiveIndicatorStyle="@style/MaterialAlertDialog.Material3"
+        app:itemIconSize="40dp"
+        app:itemIconTint="@android:color/white"
+        app:itemTextAppearanceActive="@style/Animation.Design.BottomSheetDialog"
+        app:itemTextAppearanceInactive="@style/Animation.Design.BottomSheetDialog"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:menu="@menu/navigation_button"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="7dp">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
