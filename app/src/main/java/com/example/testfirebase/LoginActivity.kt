@@ -1,4 +1,4 @@
-package com.example.numthesis
+package com.example.testfirebase
 
 import android.content.Intent
 import android.os.Bundle
