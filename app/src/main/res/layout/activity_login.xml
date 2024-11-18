@@ -132,7 +132,7 @@
                 android:id="@+id/register_link"
                 android:textStyle="bold"
                 android:layout_gravity="center_horizontal"
-                android:onClick="onRegisterNowClicked" />                />
+                android:onClick="onRegisterNowClicked" />
 
 
 
